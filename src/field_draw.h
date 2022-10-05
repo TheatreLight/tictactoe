@@ -13,7 +13,6 @@ class Field {
     int get_size() {
         return size;
     }
-    // ~Field();
 
  private:
     void first_row();
