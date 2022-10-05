@@ -134,8 +134,6 @@ int GameMode::is_horizontal(Field field) {
             } else if ('O' == tmp[i][j]) {
                 count_o++;
                 if (count_o == field.get_size() / 2 - 1) return 2;
-            } else if (' ' == tmp[i][j]) {
-                // return 0;
             }
 
         }
@@ -155,8 +153,6 @@ int GameMode::is_vertical(Field field) {
             } else if ('O' == tmp[j][i]) {
                 count_o++;
                 if (count_o == field.get_size() / 2 - 1) return 2;
-            } else if (' ' == tmp[j][i]) {
-                // return 0;
             }
 
         }

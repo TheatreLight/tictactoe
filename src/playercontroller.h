@@ -18,6 +18,4 @@ class PlayerController {
  private:
     unsigned int row_index = 0;
     unsigned int column_index = 0;
-
-
 };
